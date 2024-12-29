@@ -1,7 +1,7 @@
 import React from 'react'
-import './Footer.css';
+import './FooterPage.css';
 import { Col, Container, Row } from 'react-bootstrap';
-import footer from 'flowbite-react';
+import Footer from 'flowbite-react';
 
 const Footer = () => {
   return (
@@ -12,7 +12,7 @@ const Footer = () => {
   //       </Col>
   //   </Row>
   //  </Container>
-  <Footer container>
+  <Footer Container>
       <Footer.Copyright href="#" by="Flowbite™" year={2022} />
       <Footer.LinkGroup>
         <Footer.Link href="#">About</Footer.Link>

@@ -20,7 +20,7 @@ import project4 from './project_photos/weather react app.png';
 import project5 from './project_photos/india-toursium project.png';
 import project6 from './project_photos/meme genrator react app.png';
 import {motion} from 'framer-motion';
-import Footer from './Footer';
+import Footer from './FooterPage';
 
 
 
