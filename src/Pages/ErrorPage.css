@@ -1,0 +1,70 @@
+
+.error_container
+{
+  text-align: center;
+  height:450px;
+  /* width: 100%;
+  background-image: url('https://cdn.create.vista.com/api/media/small/211145364/stock-video-construction-website-error-404-high-definition-animation-colorful-scenes?videoStaticPreview=true&token=');
+  background-repeat: no-repeat;
+  background-position-x:right; */
+ 
+  
+}
+.heading90{
+    color: black;
+    text-align: center;
+    margin-top:50px;
+    
+}
+.icon45{
+font-size: larger !important;
+color: red;
+}
+.error_paragraph{
+    
+    font-size:x-large;
+    font-weight: 600;
+    align-items: center;
+    text-transform: capitalize;
+}
+ul{
+    font-size:medium;
+    font-weight:100px;
+    text-transform: capitalize;
+    list-style-position:inside;
+    font-weight: bold;
+   text-align:center;
+    
+}
+ul li{
+   text-align:center;
+   justify-self: center;
+   font-weight: 400;
+}
+button{
+    background-color:blue;
+    color: white;
+}
+
+@media (max-width:320px) {
+    .error_container{
+       font-size:smaller;
+       height:288px;
+    }
+    .heading90{
+font-size: larger;
+margin-top: 30px;
+
+    }
+   .error_paragraph {
+   font-size:medium;
+    }
+   ul {
+     text-align: justify;
+      font-size: smaller;
+    }
+    ul li{
+            text-align: justify;
+            font-size: smaller;
+    }
+}

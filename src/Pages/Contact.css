@@ -1,0 +1,148 @@
+
+.btn1{
+    /* color: black; */
+    font-size: large;
+    background-color: #d6d3d0 !important;
+    /* color: black; */
+    /* border:2px solid # #FF8000 !important; */
+    border:none;
+
+   
+
+    
+}
+.btn1:hover {
+    background-image: linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+color: white;
+font-size:large;
+/* border: 1px solid orangered; */
+border: none;
+
+}
+.paragraph89{
+    margin-left: 50px;
+}
+.head_contact{
+    color: #FF8000;
+}
+.contact_office{
+    color: #FF8000;
+
+}
+.heading{
+    margin-top: 40px;
+    text-align:center ;
+}
+
+.name:hover{
+    border:1px solid #FF8000 !important;
+    box-shadow: orangered !important;
+    
+}
+.focus:hover{
+    border: 1px solid  #FF8000 !important;
+   box-shadow:transparent;   
+}
+.focus{
+  
+    resize: none;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.leaflet-container.leaflet-touch-drag.leaflet-touch-zoom {
+    touch-action: none;
+    width: 100%;
+    
+}
+.contact-envelope{
+    margin:0% !important;
+}
+.fa-mobile-retro{
+    margin:0% !important;
+
+}
+.contact-mobile{
+    margin: 0% !important;
+}
+
+
+@media (max-width:475px)
+{
+    .form_container{
+          display: flex !important;
+          flex-direction:column!important;
+          width: 100% !important;        
+}
+.paragraph89{
+    text-align: center !important;
+    margin: 0%;
+}
+
+.leaflet-container .leaflet-marker-pane img
+{
+    width: 30px !important;
+    height: 30px !important;
+
+}
+.leaflet-container.leaflet-touch-drag.leaflet-touch-zoom{
+    width:200px !important;
+    height: 200px !important;
+    margin-left:90px !important;
+   
+   
+}
+.h6,h6{
+    font-size: xx-small !important;
+}
+.btn{
+    text-align:right!important;
+}
+.second_contact_row{
+    margin-right:-10px;
+}
+.company_map{
+    margin-right:200px !important;
+}
+
+.heading{
+    text-align: center !important;
+}
+.head_contact{
+    margin-bottom: 60px !important;
+}
+}
+@media (min-width:768px){
+    .leaflet-retina{
+        margin-top:100px;
+    }
+    .column_map{
+        margin-top:-98px !important;
+        }
+}
+@media (min-width:1024px) and  (max-width:2580px) {
+   .leaflet-container{
+   margin-top: 100px;
+   }
+   .map_container{
+    margin-bottom: 100px !important;
+   }
+   .column_map{
+    margin-top:-68px !important;
+    }
+    .leaflet-touch{
+        margin-top: 60px;
+    }
+}
+/* @media{ 
+    .leaflet-touch{
+        margin-top: 60px;
+    }
+    .column_map{
+        margin-top:-70px !important;
+        }
+} */
+
+ 
+   
+
+
